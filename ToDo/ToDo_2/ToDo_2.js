@@ -2,7 +2,7 @@ function descargar() {
   fetch("https://jsonplaceholder.typicode.com/todos")
     .then(response => response.json())
     .then(data => {
-      let lista = document.getElementById("lista");
+      let lista = document.querySelector("#lista"); 
       lista.innerHTML = ""; // limpiar antes de mostrar
 
       // Tomar solo los 10 primeros
@@ -14,5 +14,5 @@ function descargar() {
         lista.appendChild(li);
       });
     })
-    .catch(error => console.error("Error al descargar:", error));
 }
+

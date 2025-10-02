@@ -1,0 +1,81 @@
+/* 🎀 Estilo general */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffe6f0;  /* rosa muy claro */
+    color: #4a2c3a;             /* tono marrón oscuro elegante */
+    margin: 0;
+    padding: 20px;
+}
+
+/* 🎀 Título */
+h1 {
+    text-align: center;
+    color: #d63384; /* rosa fuerte elegante */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* 🎀 Botones */
+button {
+    background-color: #f78fb3;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 15px;
+    margin-left: 5px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e84393;
+}
+
+/* 🎀 Input */
+input[type="text"] {
+    padding: 8px;
+    border: 2px solid #f78fb3;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* 🎀 Lista */
+#lista, ul {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.tarea {
+    margin: 8px 0;
+    padding: 8px;
+    background-color: #fff0f6; 
+    border: 1px solid #f8a5c2;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* 🎀 Tareas completadas */
+.completada {
+    text-decoration: line-through;
+    color: #b03060;  /* granate/rosa oscuro */
+    font-weight: bold;
+}
+
+/* 🎀 Elementos de lista en el ejercicio 2 */
+li {
+    margin: 6px 0;
+    padding: 6px 10px;
+    background-color: #fff0f6;
+    border-radius: 6px;
+    list-style: none;
+    border: 1px solid #f8a5c2;
+}
+
+/* Texto normal */
+.tarea span {
+    flex: 1;
+}
+
